@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run -A main.js",
+    "deploy": "deployctl deploy --prod --project=cheat-panel --entrypoint=main.js"
+  }
+}
